@@ -14,6 +14,8 @@ function DayOfWeek() {
     <span style={{
       background: 'linear-gradient(90deg, #00b0ff 0%, #00ffab 100%)',
       borderRadius: '5px',
+      display: 'block',
+      marginBottom: '2rem',
       padding: '0.5rem 1rem'
     }}>
       Today is <strong>{formatDate(today)}</strong>
