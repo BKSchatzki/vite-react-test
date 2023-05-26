@@ -1,9 +1,10 @@
 import React from 'react'
 import PropContent from './PropContent'
+import Card from './Card'
 
 function PropContainer() {
   return (
-    <div>
+    <Card>
       <PropContent 
         heading="First Prop"
         content="This is the first thing being passed as a prop into PropContent.jsx"
@@ -12,7 +13,7 @@ function PropContainer() {
         heading="Second Prop"
         content="This is the second thing being passed as a prop into PropContent.jsx"
       />
-    </div>
+    </Card>
   )
 }
 
