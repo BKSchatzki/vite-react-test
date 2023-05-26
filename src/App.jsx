@@ -2,6 +2,7 @@ import Logos from './Logos';
 import Count from './Count';
 import DayOfWeek from './DayOfWeek';
 import './App.css';
+import PropContainer from './PropContainer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Count />
         <p>Save <code>App.jsx</code> to test HMR</p>
       </div>
+      <PropContainer />
     </>
   )
 }

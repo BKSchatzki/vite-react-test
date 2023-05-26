@@ -1,8 +1,14 @@
 import React from 'react'
 
-function PropContent() {
+function PropContent({
+  heading,
+  content
+}) {
   return (
-    <div>PropContent</div>
+    <div>
+      <h2>{heading}</h2>
+      <p>{content}</p>
+    </div>
   )
 }
 
