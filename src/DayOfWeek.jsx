@@ -1,6 +1,6 @@
 import React from 'react'
 
-const today = new Date();
+const today = new Date()
 
 function formatDate(date) {
   return new Intl.DateTimeFormat(
