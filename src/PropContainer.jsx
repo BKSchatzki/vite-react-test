@@ -8,7 +8,7 @@ function PropContainer() {
         heading="First Prop"
         content="This is the first thing being passed as a prop into PropContent.jsx"
       />
-            <PropContent 
+      <PropContent 
         heading="Second Prop"
         content="This is the second thing being passed as a prop into PropContent.jsx"
       />
